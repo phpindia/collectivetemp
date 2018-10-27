@@ -22,7 +22,8 @@ import { Input } from 'reactstrap';
 
 console.log("firebae poll add page", firebaseConf);
 
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addScreen' : 'production-url-here';
+//const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addScreen' : 'production-url-here';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addScreen' : 'http://159.89.175.170:5000/api/addScreen';
 
 class AddWelcomeScreen extends Component {
   state = {    

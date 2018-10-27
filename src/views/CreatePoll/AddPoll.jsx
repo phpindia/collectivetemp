@@ -23,8 +23,8 @@ import firebase from "firebase";
 
 console.log("firebae poll add page", firebaseConf);
 
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addpoll' : 'production-url-here';
-
+//const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addpoll' : 'production-url-here';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addpoll' : 'http://159.89.175.170:5000/api/addpoll';
 class AddPoll extends Component {
   constructor(props) {
     super(props);

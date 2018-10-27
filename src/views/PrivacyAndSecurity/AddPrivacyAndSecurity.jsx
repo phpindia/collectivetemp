@@ -23,7 +23,8 @@ import { Input } from 'reactstrap';
 console.log("firebae poll add page", firebaseConf);
 
 // U - user agreement, P- Privacy Policy, S- Security Policy
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addUPS' : 'production-url-here';
+//const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addUPS' : 'production-url-here';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/addUPS' : 'http://159.89.175.170:5000/api/addUPS';
 
 class AddPrivacyAndSecurity extends Component {
   state = {    

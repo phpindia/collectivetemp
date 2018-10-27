@@ -13,7 +13,8 @@ import NotificationSystem from "react-notification-system";
 import { style } from "variables/Variables.jsx";
 import firebaseConf from '../../config';
 
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/editUser' : 'production-url-here';
+//const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/editUser' : 'production-url-here';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/editUser' : 'http://159.89.175.170:5000/api/editUser';
 
 class EditUser extends Component {
 

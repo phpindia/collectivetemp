@@ -9,8 +9,8 @@ import { pollsHeding, thArray, tdArray } from "variables/Variables.jsx";
 import firebaseConf from '../../config';
 var dateFormat = require('dateformat');
 
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/editPoll' : 'production-url-here';
-
+//const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/editPoll' : 'production-url-here';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/api/editPoll' : 'http://159.89.175.170:5000/api/editPoll';
 
 class EditPoll extends Component {
   constructor(props) {
